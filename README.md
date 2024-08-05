@@ -111,7 +111,7 @@ Caution: HEX files compiled with USB support must be compiled for the correct ch
 - **Arch Linux (and Arch-likes)**
   - Build Tools  
     ```
-    sudo apt install build-essential make gcc g++
+    pacman -S base-devel gcc make
     ```
   - libUSB Development Packages  
     ```
